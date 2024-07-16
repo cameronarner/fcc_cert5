@@ -1,0 +1,87 @@
+:root{
+  --color1: #bef2ff;
+  --color2: #4f7097;
+  --color3: #93a7d1;
+  --color4: #6bf0c6; 
+}
+
+body{
+  background-color: var(--color1);
+  font-family: 'Courier New'; 
+  font-size: 20px;
+}
+
+button{
+  background-color: var(--color2);
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h1{
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+#time-left{
+ background-color: var(--color3);
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ width: fit-content;
+ padding: 20px;
+ border-radius: 5px;
+ font-size: 60px;
+ border: 2px solid var(--color2);
+ margin-bottom: 0px;
+ margin-top: 10px;
+} 
+
+#timer-label{
+  text-align: center;
+}
+
+#container{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+#session,  #break{
+  width: 50%;
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#session-increment, #session-decrement, #break-increment, #break-decrement{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#controls{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#session-length, #session-label, #break-length, #break-label{
+  display: inline-block;
+}
+
+#session-length, #break-length{
+  margin-left: 5px;
+}
